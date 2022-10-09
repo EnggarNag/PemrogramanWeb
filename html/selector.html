@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>           
+        <title>SELECTOR HTML</title>
+        <style type="text/css">
+            p{
+                font-family: Arial;
+                text-decoration: underline;
+            } 
+            .latar{
+                background:cornflowerblue;
+                color: blue;
+            }
+            #header{
+                background: blueviolet;
+                color:midnightblue;
+                text-align: center;
+                font-size: larger;
+                font-weight: bold;
+                height: 100px;
+                padding: 50px;
+            }
+            input[type=text]{
+                background: none;
+                color: black;
+                padding: 10px;
+                border: black;
+            }
+            * {
+                border: 1px solid black;
+                padding: 5;
+                margin: 5;
+            }
+        </style>
+    </head> 
+    <body class="latar"> <!-- selector class -->
+        <header id="header"> <!-- selector ID -->
+            <h1>
+                HEADER INI MENGGUNAKAN SELECTOR ID
+            </h1>
+            <h2>
+                Enggar Lanang Nandhito Agil Ghibran - 20200801076
+            </h2>
+        </header> 
+        <p> <!-- selector tag-->
+            Paragraf ini menggunakan SELEKTOR TAG 
+        </p> 
+        <p> Jika ada yang ingin anda ketahui silahkan ketik di bawah sini </p>
+        <input type="text" placeholder="Search...."/> <!-- selector atribut-->
+        <br> fitur search menggunakan SELEKTOR ATRIBUT
+        <br> border muncul karena menggunakan<b>SELEKTOR UNIVERSAL</b> <!-- selector universal-->
+        yang bersifat universal dan background menggunakan SELEKTOR CLASS
+    </body>
+</html>

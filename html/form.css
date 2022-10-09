@@ -1,0 +1,29 @@
+Body {
+    background: khaki;
+    color:darkgreen
+}
+p{
+    text-decoration: underline;
+}
+h2{
+    color:black;
+    border-bottom:2px solid black;
+    text-align: center;
+}
+table {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: medium;
+    color:black;
+    margin-left: 425px;
+    margin-top: 50px;
+    
+}
+table td{
+    background-color: goldenrod;
+    color: black;
+    padding: 4px;
+    text-align: left;
+    border: 2;
+    border-color: black;
+}

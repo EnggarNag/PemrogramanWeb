@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <!--Style Tabel HTML -->
+    <head>
+        <title>Style Tabel HTML </title>
+        <style type="text/css">
+            .belakang
+            {
+                background-color:tomato;
+            }
+            .head{
+                text-align: center;
+                color: #000;;
+                font-weight: bold;
+                font-size: larger;
+            }
+            .teks{
+                text-align: center;
+                color: #000;;
+                font-size: medium;
+            }
+            table {
+                text-align: center;
+                font-family: 'Times New Roman';
+                font-size: medium;
+                color:maroon;
+                margin-left: 350px;
+                margin-top: 50px;
+                
+            }
+            table td{
+                background-color: goldenrod;
+                color: black;
+                padding: 4px;
+                text-align: left;
+                border: 3px;
+            }
+            table td.judul{
+                background-color: black;
+                color: goldenrod;
+                padding: 4px;
+                text-align: center;
+                font-family: 'Times New Roman';
+                border-radius: 2px;
+            }
+        </style>
+    </head>
+    <body class="belakang">
+        <h1 class="head">STYLE DALAM TABEL</h1>
+        <p class="teks"> Program ini dibuat untuk menjawab Soal no 5 pada Tugas 4 mata kuliah Pemrograman Web</p>
+        <p class="teks"> Teknik Informatika - Universitas Esa Unggul</p>
+        <table>
+            <caption> BIODATA DALAM TABEL </caption>
+            <tr>
+                <td class="judul"> NO </td>
+                <td class="judul"> Nama </td>
+                <td class="judul"> NIM </td>
+                <td class="judul"> Usia </td>
+                <td class="judul"> alamat </td>
+                <td class="judul"> Gender</td>
+                <td class="judul"> Hobi </td>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> Enggar </td>
+                <td rowspan="5"> 20200801076</td>
+                <td rowspan="5"> 21 Tahun </td>
+                <td rowspan="5"> Tangerang </td>   
+                <td rowspan="5"> Laki-laki </td>
+                <td rowspan="2"> Playing Game </td>    
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Lanang </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> Nandhito </td>
+                <td> Listening Music </td>
+            </tr>
+            <tr>
+                <td> 4 </td>
+                <td> Agil </td>
+                <td rowspan="2"> Watching Video </td>
+            </tr>
+            <tr>
+                <td> 5 </td>
+                <td> Ghibran </td>
+            </tr>
+       </table>    
+    </body>
+</html>
